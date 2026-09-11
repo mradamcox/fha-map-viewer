@@ -1,0 +1,70 @@
+:root {
+  --pico-font-family: Figtree, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0; padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Oswald;
+}
+
+#map { height: 100%; }
+
+#open-controls {
+  position: absolute;
+  z-index: 2000;
+  background: var(--pico-card-background-color);
+  margin: .25em;
+}
+
+.panel {
+  position:absolute;
+  display:flex;
+  flex-direction: column;
+  z-index: 10000;
+}
+
+.panel-controls {
+  margin: .5em;
+  width:350px;
+  min-width:350px;
+  max-width: 100%;
+  padding: var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);
+  background: var(--pico-card-background-color);
+  border-radius: var(--pico-border-radius);
+}
+
+.panel-right {
+  width: 100%;
+  height: 100vh;
+  padding: .5em;
+}
+.panel-right > article {
+  margin: 0;
+  max-height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.text-only-button {
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: default;
+}
+.text-only-button:focus {
+  box-shadow: none;
+}
+.text-only-button > span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

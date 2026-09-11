@@ -1,2 +1,10 @@
 # fha-map-viewer
-Simple web map for viewing and exploring FHA Block Data maps.
+
+Web app for viewing and providing download links to FHA Block Data maps.
+
+# dev
+
+```
+npm install
+npm run dev
+```
