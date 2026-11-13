@@ -56,7 +56,7 @@ const setMap = function (mapid: string) {
 
     if (slider) {
       slider.value = '100';
-      slider.addEventListener('input', function (e) {
+      slider.addEventListener('input', function () {
           map.setPaintProperty(
               "overlay",
               "raster-opacity",
@@ -79,30 +79,30 @@ const btnHideControls = document.getElementById("hide-controls");
 const btnHideInfo = document.getElementById("close-panel-info");
 const btnHideDownloads = document.getElementById("close-panel-downloads");
 
-btnShowInfo?.addEventListener('click', (e) =>  {
+btnShowInfo?.addEventListener('click', () =>  {
     panelInfo?.classList.toggle("hidden");
     panelDownloads?.classList.add("hidden");
     panelControls?.classList.add("hidden");
 })
-btnShowDownloads?.addEventListener('click', (e) =>  {
+btnShowDownloads?.addEventListener('click', () =>  {
     panelDownloads?.classList.toggle("hidden");
     panelInfo?.classList.add("hidden");
     panelControls?.classList.add("hidden");
 })
-btnHideControls?.addEventListener('click', (e) =>  {
+btnHideControls?.addEventListener('click', () =>  {
     panelControls?.classList.add("hidden");
     btnShowControls?.classList.remove("hidden");
     
 })
-btnHideInfo?.addEventListener('click', (e) =>  {
+btnHideInfo?.addEventListener('click', () =>  {
     panelInfo?.classList.add("hidden");
     panelControls?.classList.remove("hidden");
 })
-btnHideDownloads?.addEventListener('click', (e) =>  {
+btnHideDownloads?.addEventListener('click', () =>  {
     panelDownloads?.classList.add("hidden");
     panelControls?.classList.remove("hidden");
 })
-btnShowControls?.addEventListener('click', (e) =>  {
+btnShowControls?.addEventListener('click', () =>  {
     panelControls?.classList.remove("hidden");
     btnShowControls?.classList.add("hidden");
 })
