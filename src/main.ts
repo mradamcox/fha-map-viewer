@@ -110,7 +110,8 @@ btnShowControls?.addEventListener('click', () =>  {
     btnShowControls?.classList.add("hidden");
 })
 
-
+const summaryDetails = document.getElementById("mapSelect") as HTMLDetailsElement;
+summaryDetails.open = !isMobile;
 const mapSelect = document.getElementById("mapSelect") as HTMLDetailsElement;
 const mapSelected = document.getElementById("mapSelected")
 const mapSelectList = document.getElementById("mapSelectList") as HTMLUListElement;

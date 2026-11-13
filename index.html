@@ -5,16 +5,19 @@
     <meta property="og:description" content="Basic viewer and access to georeferenced FHA Block Data maps." />
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-<button id="open-controls" class="text-only-button hidden"><span>show panel</span> &rarr;</button>
+<button id="open-controls" class="text-only-button hidden icon-button"><span>show panel</span><i class="ph ph-arrow-right"></i></button>
 <div style="display:flex; height:100vh">
-    <!-- <button id="showPanelBtn" class="show-hide-controls-btn">show panel &rarr;</button> -->
     <div id="panel-controls" class="panel panel-controls">
         <h1 id="map-title">FHA Block Data Maps</h1>
         <details id="mapSelect" class="dropdown">
@@ -23,20 +26,36 @@
         </details>
         <input id="transparency-slider" style="margin-bottom:0;" type="range" min="0" max="100" step="0" value="100"/>
         <p style="font-size:.7em;"><em>adjust overlay transparency with slider</em></p>
-        <p>Long believed to be lost, the FHA Block Data Maps reveal over 150 maps that the 
-            Federal Housing Administration (FHA) prepared during the 1930s. 
-            These maps provide insight into the work of the
-            <a href="https://dsl.richmond.edu/panorama/redlining/consultants">New Deal Mapping State</a>.
-            Use this viewer to compare the maps with the maps of cities in the 2020s.
-        </p>
-        <button id="show-more" class="text-only-button"><span>learn more</span> &rarr;</button>
-        <button id="show-downloads" class="text-only-button"><span>downloads</span> &rarr;</button>
-
-        <button id="hide-controls" class="text-only-button">&larr; <span>close panel</span></button>
+        <details>
+            <summary>About these maps...</summary>
+            <p>Long believed to be lost, the FHA Block Data Maps reveal over 150 maps that the 
+                Federal Housing Administration (FHA) prepared during the 1930s. 
+                These maps provide insight into the work of the
+                <a href="https://dsl.richmond.edu/panorama/redlining/consultants">New Deal Mapping State</a>.
+                Use this viewer to compare the maps with the maps of cities in the 2020s.
+            </p>
+            <button id="show-more" class="text-only-button icon-button">
+                <span>learn more</span>
+                <i class="ph ph-arrow-right"></i>
+            </button>
+        </details>
+        <div class="control-buttons" role="group">
+            <button id="hide-controls" class="icon-button">
+                <i class="ph ph-arrow-left"></i>
+                <span>close</span>
+            </button>
+            <button id="show-downloads" class="icon-button">
+                <span>downloads</span>
+                <i class="ph ph-arrow-down"></i>
+            </button>
+        </div>
     </div>
     <div id="panel-info" class="panel panel-right hidden">
         <article>
-            <button id="close-panel-info" class="text-only-button">&larr; <span>back</span></button>
+            <button id="close-panel-info" class="text-only-button icon-button">
+                <i class="ph ph-arrow-left"></i>
+                <span>back</span>
+            </button>
             <p>Block Data Maps were originally drafted by the Civil Works Administration and the Department of Commerce as a part of the Real Property Inventory (RPI) which began in November 1933. On June 27, 1934, the Federal Housing Administration (FHA) was established by the National Housing Act.</p>
             <p>Soon thereafter, the FHA recognized the value of the Block Data Maps and began working on the Real Property Inventory which produced the original Block Data Maps. After refining and modifying the RPI, it was rebranded the Real Property Survey.</p>
             <p>According to the June 1937 article "A New Map Aid for Mortgage Lenders" published in the FHA's trade journal Insured Mortgage Portfolio, the FHA saw Block Data Maps as vitally important tools for underwriting or guaranteeing loans.</p>
@@ -50,7 +69,10 @@
     </div>
     <div id="panel-downloads" class="panel panel-right hidden">
         <article>
-            <button id="close-panel-downloads" class="text-only-button">&larr; <span>back</span></button>
+            <button id="close-panel-downloads" class="text-only-button icon-button">
+                <i class="ph ph-arrow-left"></i>
+                <span>back</span>
+            </button>
             <h4>Download FHA Block Data maps</h4>
             <p>
                 <small>geotiff: for use in GIS software<br/>jpg: original scanned image</small>
