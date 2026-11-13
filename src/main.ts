@@ -1,48 +1,62 @@
 import '@picocss/pico/css/pico.css';
 import './style.css'
-import {Map, setWorkerUrl} from 'maplibre-gl';
+import type { RasterSourceSpecification } from 'maplibre-gl';
+import { Map,  setWorkerUrl } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
+
+import { SwipeControl } from "maplibre-gl-swipe";
+import "maplibre-gl-swipe/style.css";
 
 import fhaMapData from "./data/fha-map-data.json"
 
 setWorkerUrl(workerUrl);
 
+interface MapItem {
+    title: string;
+    id: string;
+    source: RasterSourceSpecification;
+    center?: [number, number, number];
+}
+
+const maps = fhaMapData.items as MapItem[];
+
 const downloadListUl = document.getElementById("download-list")
-fhaMapData.items.sort(function(a, b) {
+maps.sort(function(a, b) {
     return a.title.localeCompare(b.title);
 });
-fhaMapData.items.map(item => {
+maps.map(item => {
     const liEl = document.createElement("li");
-    liEl.innerHTML = `<a href="${item.id}">${item.title}</a>`;
+    liEl.innerHTML = `<strong>${item.title}</strong><br/>[<a href="${item.id}">geotiff</a>] [<a href="${item.id}">jpg</a>]`;
     downloadListUl?.appendChild(liEl);
 })
 
 const map  = new Map({
     container: 'map', // container id
     style: 'https://tiles.openfreemap.org/styles/positron',
-    bounds: [
-        -81.6558837890625,
-        40.98819156349393,
-        -81.41418457031251,
-        41.16624933909198
-    ]
+    bounds: maps[0].source.bounds
 });
 
+const slider = document.getElementById("transparency-slider") as HTMLInputElement;
+const mapLookup: Record<string, MapItem> = {}
 
-const mapLookup = {}
 const setMap = function (mapid: string) {
     const mapDef = mapLookup[mapid]
-    map.fitBounds(mapDef.bounds,{linear:true, padding: {top: 0, bottom:0, left: 350, right: 0}})
-    // map.flyTo(mapDef.bounds,{linear:true, padding: {top: 0, bottom:0, left: 200, right: 0}})
-    if (map.getStyle().layers.map(a => a.id).includes("overlay")){map.removeLayer("overlay")}
-    map.addLayer({
-        'id': "overlay",
-        'type': 'raster',
-        'source': mapid,
-    })
+    if (mapDef.source.bounds) {
+        console.log("ftting??")
+        map.fitBounds(mapDef.source.bounds,{linear:false, padding: {top: 0, bottom:0, left: 350, right: 0}})
+    }
 
-    const slider = document.getElementById("transparency-slider") as HTMLInputElement;
+    if (map.getStyle().layers.map(a => a.id).includes("overlay")){map.removeLayer("overlay")}
+
+    if (mapDef.source.tiles) {
+        map.addLayer({
+            'id': "overlay",
+            'type': 'raster',
+            'source': mapid,
+        })
+    }
+
     if (slider) {
       slider.value = '100';
       slider.addEventListener('input', function (e) {
@@ -54,6 +68,7 @@ const setMap = function (mapid: string) {
       })
     }
 }
+
 
 const panelControls = document.getElementById("panel-controls");
 const panelInfo = document.getElementById("panel-info");
@@ -95,37 +110,49 @@ btnShowControls?.addEventListener('click', (e) =>  {
     btnShowControls?.classList.add("hidden");
 })
 
+
+const mapSelect = document.getElementById("mapSelect") as HTMLDetailsElement;
+const mapSelected = document.getElementById("mapSelected")
+const mapSelectList = document.getElementById("mapSelectList") as HTMLUListElement;
+
+maps.forEach((element, index) => {
+    mapLookup[element.id] = element
+
+    const selectOpt = document.createElement('option')
+    selectOpt.innerHTML = element.title;
+    selectOpt.value = element.id;
+    const selectOpt2 = document.createElement('li')
+    selectOpt2.innerHTML = `
+    <label>
+    <input type="radio" name="display-map" value="${element.id}" ${index == 0 ? 'checked' : ''} />
+    ${element.title}
+    </label>
+    </li>`
+    mapSelectList?.appendChild(selectOpt2)
+    if (index == 0 && mapSelected) {mapSelected.textContent = element.title}
+});
+
 map.on('load', () => {
-    const mapSelect = document.getElementById("mapSelect")
-    const mapSelected = document.getElementById("mapSelected")
-    const mapSelectList = document.getElementById("mapSelectList")
 
-    fhaMapData.items.forEach((element, index) => {
-        element.type = "raster";
-        map.addSource(element.id, element)
-        mapLookup[element.id] = element
-
-        const selectOpt = document.createElement('option')
-        selectOpt.innerHTML = element.title;
-        selectOpt.value = element.id;
-        const selectOpt2 = document.createElement('li')
-        selectOpt2.innerHTML = `
-        <label>
-        <input type="radio" name="display-map" value="${element.id}" ${index == 0 ? 'checked' : ''} />
-        ${element.title}
-        </label>
-        </li>`
-        mapSelectList?.appendChild(selectOpt2)
-        if (index == 0) {mapSelected.textContent = element.title}
+    maps.forEach((item) => {
+        if (item.source.tiles) {
+            map.addSource(item.id, item.source)
+        }
+});
+    mapSelectList?.addEventListener('change', (e: Event) => {
+        if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement ) {
+            console.log("asdfiasndf")
+            const selectedValue = e.target.value;
+            console.log(mapSelected)
+            console.log(selectedValue)
+            if (mapSelected) {
+                mapSelected.textContent = mapLookup[selectedValue].title;
+                console.log(mapSelected.textContent)
+                setMap(selectedValue);
+                if (mapSelect) {mapSelect.open = false};
+            }
+        }
     });
 
-    mapSelectList.addEventListener('change', (e) => {
-        // e.target refers to the specific radio button that was clicked
-        const selectedValue = e.target.value;
-        mapSelected.textContent = mapLookup[selectedValue].title;
-        setMap(selectedValue);
-        mapSelect.open = false;
-    });
-
-    setMap(fhaMapData.items[0].id)
+    setMap(maps[0].id)
 });

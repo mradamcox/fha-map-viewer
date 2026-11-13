@@ -32,11 +32,12 @@ h1, h2, h3, h4, h5, h6 {
 .panel-controls {
   margin: .5em;
   width:350px;
-  min-width:350px;
-  max-width: 100%;
+  max-width: calc(100% - 1em);
+  max-height: calc(100vh - 1em);
   padding: var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);
   background: var(--pico-card-background-color);
   border-radius: var(--pico-border-radius);
+  overflow-y: scroll;
 }
 
 .panel-right {

@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<button id="open-controls" class="text-only-button hidden"><span>show controls</span> &rarr;</button>
+<button id="open-controls" class="text-only-button hidden"><span>show panel</span> &rarr;</button>
 <div style="display:flex; height:100vh">
     <!-- <button id="showPanelBtn" class="show-hide-controls-btn">show panel &rarr;</button> -->
     <div id="panel-controls" class="panel panel-controls">
@@ -21,11 +21,8 @@
             <summary id="mapSelected" role="button">Select map</summary>
             <ul id="mapSelectList"></ul>
         </details>
-        <div role="group">
-            <button aria-current="true">opacity</button>
-            <button>swipe</button>
-        </div>
-        <input id="transparency-slider" type="range" min="0" max="100" step="0" value="100"/>
+        <input id="transparency-slider" style="margin-bottom:0;" type="range" min="0" max="100" step="0" value="100"/>
+        <p style="font-size:.7em;"><em>adjust overlay transparency with slider</em></p>
         <p>Long believed to be lost, the FHA Block Data Maps reveal over 150 maps that the 
             Federal Housing Administration (FHA) prepared during the 1930s. 
             These maps provide insight into the work of the
@@ -35,7 +32,7 @@
         <button id="show-more" class="text-only-button"><span>learn more</span> &rarr;</button>
         <button id="show-downloads" class="text-only-button"><span>downloads</span> &rarr;</button>
 
-        <button id="hide-controls" class="text-only-button">&larr; <span>close</span></button>
+        <button id="hide-controls" class="text-only-button">&larr; <span>close panel</span></button>
     </div>
     <div id="panel-info" class="panel panel-right hidden">
         <article>
@@ -54,7 +51,11 @@
     <div id="panel-downloads" class="panel panel-right hidden">
         <article>
             <button id="close-panel-downloads" class="text-only-button">&larr; <span>back</span></button>
-            <p>Download georeferenced maps:</p>
+            <h4>Download FHA Block Data maps</h4>
+            <p>
+                <small>geotiff: for use in GIS software<br/>jpg: original scanned image</small>
+
+            </p>
             <ul id="download-list"></ul>
         </article>
     </div>
