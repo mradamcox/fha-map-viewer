@@ -44,7 +44,7 @@ maps.map(item => {
         pageNo++
     })
     liEl.innerHTML += `<br/>layer: <a href="${item.downloads.mosaic_cog.url}">geotiff</a> <small>[${Math.round(item.downloads.mosaic_cog.size)}mb]</small>`
-    // liEl.innerHTML += `<br/><small><a href="https://oldinsurancemaps.net/map/${item.id}" target="_blank">View on OldInsuranceMaps.net &nearr;</a></small>`
+    liEl.innerHTML += `<br/><small><a href="https://oldinsurancemaps.net/map/${item.id}" target="_blank">View on OldInsuranceMaps.net &nearr;</a></small>`
     downloadListUl?.appendChild(liEl);
 })
 
