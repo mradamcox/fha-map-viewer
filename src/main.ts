@@ -11,11 +11,20 @@ setWorkerUrl(workerUrl);
 
 const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 
+interface DownloadFile {
+    url: string;
+    size: number;
+}
+
 interface MapItem {
     title: string;
     id: string;
     source: RasterSourceSpecification;
     center?: [number, number, number];
+    downloads: {
+        mosaic_cog: DownloadFile,
+        source_images: [DownloadFile]
+    }
 }
 
 const maps = fhaMapData.items as MapItem[];
@@ -26,7 +35,16 @@ maps.sort(function(a, b) {
 });
 maps.map(item => {
     const liEl = document.createElement("li");
-    liEl.innerHTML = `<strong>${item.title}</strong><br/>[<a href="${item.id}">geotiff</a>] [<a href="${item.id}">jpg</a>]`;
+    liEl.innerHTML = `<strong>${item.title}</strong>`
+    liEl.innerHTML += `<br/>source image(s): `
+    const ct = item.downloads.source_images.length;
+    let pageNo = 1;
+    item.downloads.source_images.forEach(dl => {
+        liEl.innerHTML += ` <a href="${dl.url}">jpg ${pageNo}/${ct}</a> <small>[${Math.round(dl.size)}mb]</small>`;
+        pageNo++
+    })
+    liEl.innerHTML += `<br/>layer: <a href="${item.downloads.mosaic_cog.url}">geotiff</a> <small>[${Math.round(item.downloads.mosaic_cog.size)}mb]</small>`
+    // liEl.innerHTML += `<br/><small><a href="https://oldinsurancemaps.net/map/${item.id}" target="_blank">View on OldInsuranceMaps.net &nearr;</a></small>`
     downloadListUl?.appendChild(liEl);
 })
 
@@ -110,11 +128,21 @@ btnShowControls?.addEventListener('click', () =>  {
     btnShowControls?.classList.add("hidden");
 })
 
-const summaryDetails = document.getElementById("mapSelect") as HTMLDetailsElement;
+const summaryDetails = document.getElementById("summaryDetails") as HTMLDetailsElement;
 summaryDetails.open = !isMobile;
 const mapSelect = document.getElementById("mapSelect") as HTMLDetailsElement;
 const mapSelected = document.getElementById("mapSelected")
 const mapSelectList = document.getElementById("mapSelectList") as HTMLUListElement;
+
+mapSelect.addEventListener("click", () => {
+    if (mapSelect.open) {
+        // this means it's open but will be closed
+        if (panelControls) {panelControls.style.height = "unset"} 
+    } else {
+        // this means it's closed but will be opened
+        if (panelControls) {panelControls.style.height = "100%"}
+    }
+})
 
 maps.forEach((element, index) => {
     mapLookup[element.id] = element
@@ -139,7 +167,7 @@ map.on('load', () => {
         if (item.source.tiles) {
             map.addSource(item.id, item.source)
         }
-});
+    });
     mapSelectList?.addEventListener('change', (e: Event) => {
         if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement ) {
             const selectedValue = e.target.value;

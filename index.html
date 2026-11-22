@@ -26,7 +26,7 @@
         </details>
         <input id="transparency-slider" style="margin-bottom:0;" type="range" min="0" max="100" step="0" value="100"/>
         <p style="font-size:.7em;"><em>adjust overlay transparency with slider</em></p>
-        <details>
+        <details id="summaryDetails">
             <summary>About these maps...</summary>
             <p>Long believed to be lost, the FHA Block Data Maps reveal over 150 maps that the 
                 Federal Housing Administration (FHA) prepared during the 1930s. 
@@ -75,8 +75,11 @@
             </button>
             <h4>Download FHA Block Data maps</h4>
             <p>
-                <small>geotiff: for use in GIS software<br/>jpg: original scanned image</small>
-
+                <small>Feel free to download the georeferenced maps as <strong>geotiffs</strong>, or the 
+                    source images as <strong>jpegs</strong>. Some maps were published on multiple pages
+                    which we have combined into one layer through the georeferencing process. Please note,
+                    during processing, the resolution became degraded on some maps (we are working to fix this!).
+                </small>
             </p>
             <ul id="download-list"></ul>
         </article>
