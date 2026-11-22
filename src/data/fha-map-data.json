@@ -1,6 +1,242 @@
 {
   "items": [
     {
+      "title": "Akron, Ohio",
+      "id": "P8GE43",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_akron_oh_p1__DzaHis_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -81.6558837890625,
+          40.98819156349393,
+          -81.41418457031251,
+          41.16624933909198
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_akron_oh_p1__DzaHis_01.tif",
+          "size": 14.68028450012207
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_akron_oh_p1.jpg",
+            "size": 22.77916145324707
+          }
+        ]
+      },
+      "center": [
+        -81.5350341796875,
+        41.07722045129296,
+        16
+      ]
+    },
+    {
+      "title": "Albuquerque, N.M.",
+      "id": "Z7NWOK",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_albuquerque_nm_p1__S0ipvm_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -106.69235229492188,
+          35.04236517064141,
+          -106.56326293945312,
+          35.124401579920445
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_albuquerque_nm_p1__S0ipvm_00.tif",
+          "size": 36.9539213180542
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_albuquerque_nm_p1.jpg",
+            "size": 27.690336227416992
+          }
+        ]
+      },
+      "center": [
+        -106.6278076171875,
+        35.083383375280924,
+        16
+      ]
+    },
+    {
+      "title": "Alexandria, Va.",
+      "id": "3ZUTYK",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_alexandria_va__SCTBBO_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -77.1075439453125,
+          38.77335772026906,
+          -77.0196533203125,
+          38.85682013474362
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Julianbw93/'>Julianbw93</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_alexandria_va__SCTBBO_01.tif",
+          "size": 9.601734161376953
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_alexandria_va.jpg",
+            "size": 7.793733596801758
+          }
+        ]
+      },
+      "center": [
+        -77.0635986328125,
+        38.815088927506345,
+        16
+      ]
+    },
+    {
+      "title": "Anaconda-Deer Lodge County, Mont.",
+      "id": "BRYEKS",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_anaconda_mt__4TN4Te_02.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -112.98339843749999,
+          46.10561307998295,
+          -112.91473388671875,
+          46.141782737592344
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Julianbw93/'>Julianbw93</a>, <a href='https://oldinsurancemaps.net/profile/Marvin/'>Marvin</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_anaconda_mt__4TN4Te_02.tif",
+          "size": 2.358342170715332
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_anaconda_mt.jpg",
+            "size": 1.0029993057250977
+          }
+        ]
+      },
+      "center": [
+        -112.94906616210936,
+        46.12369790878765,
+        16
+      ]
+    },
+    {
+      "title": "Athens, Ga.",
+      "id": "I16ZML",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Fmosaics%2FI16ZML-main-content__2026-11-13__dcGXrN.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -83.41163635253905,
+          33.91943194771954,
+          -83.34777832031249,
+          33.99575015925126
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/I16ZML-main-content__2026-11-13__dcGXrN.tif",
+          "size": 77.45408344268799
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_athens_ga_p2.jpg",
+            "size": 19.084012985229492
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_athens_ga_p1.jpg",
+            "size": 24.452882766723633
+          }
+        ]
+      },
+      "center": [
+        -83.37970733642577,
+        33.9575910534854,
+        16
+      ]
+    },
+    {
+      "title": "Atlanta, Ga.",
+      "id": "S7BFS0",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Fmosaics%2FS7BFS0-main-content__2026-11-14__JjqBcy.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -84.462890625,
+          33.67635422308637,
+          -84.2706298828125,
+          33.84076406581977
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/brboa4/'>brboa4</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/S7BFS0-main-content__2026-11-14__JjqBcy.tif",
+          "size": 58.08078479766846
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_atlanta_ga_p2.jpg",
+            "size": 10.20384407043457
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_atlanta_ga_p1.jpg",
+            "size": 8.135843276977539
+          }
+        ]
+      },
+      "center": [
+        -84.36676025390625,
+        33.758559144453066,
+        16
+      ]
+    },
+    {
       "title": "Aurora, Ill.",
       "id": "VP3PYH",
       "source": {
@@ -18,11 +254,175 @@
           -88.24218749999999,
           41.82659537357171
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/brboa4/'>brboa4</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/VP3PYH-main-content__2025-11-04__Br2LNt.tif",
+          "size": 13.181551933288574
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/Aurora_IL_BDM-gimp90.jpg",
+            "size": 12.751102447509766
+          }
+        ]
       },
       "center": [
         -88.3026123046875,
         41.77128783649051,
+        16
+      ]
+    },
+    {
+      "title": "Austin, Texas",
+      "id": "ORDD03",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_austin_tx__aSFUcJ_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -97.78656005859375,
+          30.225848323247707,
+          -97.70416259765625,
+          30.32310046020164
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/brboa4/'>brboa4</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_austin_tx__aSFUcJ_00.tif",
+          "size": 12.738343238830566
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_austin_tx.jpg",
+            "size": 11.357276916503906
+          }
+        ]
+      },
+      "center": [
+        -97.745361328125,
+        30.27447439172467,
+        16
+      ]
+    },
+    {
+      "title": "Boise City, Idaho",
+      "id": "A336XP",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_boise_id_p1__Q4h9VK_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -116.26281738281249,
+          43.570441805985645,
+          -116.16668701171875,
+          43.648000799021716
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_boise_id_p1__Q4h9VK_01.tif",
+          "size": 15.523118019104004
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_boise_id_p1.jpg",
+            "size": 22.944307327270508
+          }
+        ]
+      },
+      "center": [
+        -116.21475219726561,
+        43.609221302503684,
+        16
+      ]
+    },
+    {
+      "title": "Bradford, Pa.",
+      "id": "MY49LA",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_bradford_pa__CfqgsX_03.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -78.6676025390625,
+          41.939062754848564,
+          -78.60992431640625,
+          41.975827261025714
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/jreaves42/'>jreaves42</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_bradford_pa__CfqgsX_03.tif",
+          "size": 2.7635974884033203
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_bradford_pa.jpg",
+            "size": 2.8371400833129883
+          }
+        ]
+      },
+      "center": [
+        -78.63876342773438,
+        41.95744500793713,
+        16
+      ]
+    },
+    {
+      "title": "Brunswick, Ga.",
+      "id": "117U8P",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_brunswick_ga__tOhLaq_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -81.52130126953125,
+          31.11409159489868,
+          -81.4581298828125,
+          31.194007509998823
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_brunswick_ga__tOhLaq_01.tif",
+          "size": 5.093837738037109
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_brunswick_ga.jpg",
+            "size": 2.1959009170532227
+          }
+        ]
+      },
+      "center": [
+        -81.48971557617188,
+        31.15404955244875,
         16
       ]
     },
@@ -44,11 +444,327 @@
           -73.17169189453125,
           44.49846441646549
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/DOUH3O-main-content__2025-10-27__G2VS6y.tif",
+          "size": 5.538581848144531
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_burlington_vt_p1.jpg",
+            "size": 4.002141952514648
+          }
+        ]
       },
       "center": [
         -73.20190429687499,
         44.470044317026755,
+        16
+      ]
+    },
+    {
+      "title": "Cairo, Ill.",
+      "id": "VKIPJ4",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_cairo_il__urFBD3_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -89.20074462890625,
+          36.98939086733936,
+          -89.154052734375,
+          37.03106210011893
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/arco/'>arco</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_cairo_il__urFBD3_01.tif",
+          "size": 3.039325714111328
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_cairo_il.jpg",
+            "size": 2.656430244445801
+          }
+        ]
+      },
+      "center": [
+        -89.17739868164062,
+        37.01022648372914,
+        16
+      ]
+    },
+    {
+      "title": "Casper, Wyo.",
+      "id": "WJNCLS",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_casper_wy__IXvMCl_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -106.36413574218749,
+          42.82763863624229,
+          -106.28173828125,
+          42.86791248391531
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/acsadovi/'>acsadovi</a>, <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_casper_wy__IXvMCl_01.tif",
+          "size": 1.606649398803711
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_casper_wy.jpg",
+            "size": 2.0339670181274414
+          }
+        ]
+      },
+      "center": [
+        -106.32293701171875,
+        42.8477755600788,
+        16
+      ]
+    },
+    {
+      "title": "Chester, Pa.",
+      "id": "VPKLBU",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_chester_pa__Bbu9Nz_05.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -75.46234130859376,
+          39.79798577319721,
+          -75.30853271484375,
+          39.894987168842064
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Destinyb/'>Destinyb</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/jreaves42/'>jreaves42</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_chester_pa__Bbu9Nz_05.tif",
+          "size": 10.896047592163086
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_chester_pa.jpg",
+            "size": 7.9326276779174805
+          }
+        ]
+      },
+      "center": [
+        -75.38543701171876,
+        39.84648647101963,
+        16
+      ]
+    },
+    {
+      "title": "Cheyenne, Wyo.",
+      "id": "EWVOJW",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_cheyenne_wy__l5lIcy_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -104.85900878906251,
+          41.089702205437405,
+          -104.76013183593751,
+          41.17865397233169
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/Lbrown/'>Lbrown</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_cheyenne_wy__l5lIcy_00.tif",
+          "size": 10.773017883300781
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_cheyenne_wy.jpg",
+            "size": 6.417217254638672
+          }
+        ]
+      },
+      "center": [
+        -104.80957031250001,
+        41.134178088884546,
+        16
+      ]
+    },
+    {
+      "title": "Colorado Springs, Colo.",
+      "id": "SI5ETM",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_colorado_springs_co__nDTy75_03.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -104.89746093750001,
+          38.771216372442716,
+          -104.77661132812501,
+          38.886757140695906
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_colorado_springs_co__nDTy75_03.tif",
+          "size": 5.059211730957031
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_colorado_springs_co.jpg",
+            "size": 4.600037574768066
+          }
+        ]
+      },
+      "center": [
+        -104.83703613281251,
+        38.828986756569314,
+        16
+      ]
+    },
+    {
+      "title": "Columbus, Ga.",
+      "id": "C2TUF8",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_columbus_ga__x7rWAi_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -85.00396728515625,
+          32.43097672054702,
+          -84.9407958984375,
+          32.47501213905003
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_columbus_ga__x7rWAi_00.tif",
+          "size": 4.395872116088867
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_columbus_ga.jpg",
+            "size": 3.767441749572754
+          }
+        ]
+      },
+      "center": [
+        -84.97238159179688,
+        32.45299442979852,
+        16
+      ]
+    },
+    {
+      "title": "Dallas, Texas",
+      "id": "NXKNA0",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_dallas_tx__bR4Y4C_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -96.8939208984375,
+          32.685619853721995,
+          -96.7181396484375,
+          32.8795871730663
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_dallas_tx__bR4Y4C_00.tif",
+          "size": 17.989849090576172
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_dallas_tx.jpg",
+            "size": 14.80145263671875
+          }
+        ]
+      },
+      "center": [
+        -96.8060302734375,
+        32.78260351339415,
+        16
+      ]
+    },
+    {
+      "title": "Decatur, Ill.",
+      "id": "GCF5FQ",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_decatur_il_p1__oj6CGk_04.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -89.0057373046875,
+          39.79376521264885,
+          -88.90411376953125,
+          39.89709437260049
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Destinyb/'>Destinyb</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_decatur_il_p1__oj6CGk_04.tif",
+          "size": 15.417494773864746
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_decatur_il_p1.jpg",
+            "size": 13.073966026306152
+          }
+        ]
+      },
+      "center": [
+        -88.95492553710938,
+        39.84542979262467,
         16
       ]
     },
@@ -70,7 +786,55 @@
           -82.87536621093751,
           42.47007098029904
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/LVRKNA-main-content__2025-10-27__VEGJCy.tif",
+          "size": 370.12370014190674
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p4.jpg",
+            "size": 9.123944282531738
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p2.jpg",
+            "size": 9.445274353027344
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p3.jpg",
+            "size": 8.025842666625977
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p1.jpg",
+            "size": 10.839797973632812
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p5.jpg",
+            "size": 6.342404365539551
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p6.jpg",
+            "size": 8.910660743713379
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p10.jpg",
+            "size": 8.21857738494873
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p8.jpg",
+            "size": 9.996005058288574
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p7.jpg",
+            "size": 20.503249168395996
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_detroit_mi_p9.jpg",
+            "size": 10.428577423095703
+          }
+        ]
       },
       "center": [
         -83.08822631835938,
@@ -96,11 +860,681 @@
           -91.900634765625,
           46.95401192579361
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/14PNUL-main-content__2025-11-04__X6lATA.tif",
+          "size": 81.41464042663574
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_duluth_mn_p2.jpg",
+            "size": 41.64873504638672
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_duluth_mn_p1.jpg",
+            "size": 40.20713520050049
+          }
+        ]
       },
       "center": [
         -92.12310791015624,
         46.78757970017485,
+        16
+      ]
+    },
+    {
+      "title": "El Dorado, Kan.",
+      "id": "QF3PRD",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_el_dorado_ks_p1__vS8flp_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -96.87744140625,
+          37.78916666399648,
+          -96.83486938476561,
+          37.835818618104156
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_el_dorado_ks_p1__vS8flp_00.tif",
+          "size": 11.37189769744873
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_el_dorado_ks_p1.jpg",
+            "size": 5.044222831726074
+          }
+        ]
+      },
+      "center": [
+        -96.8561553955078,
+        37.81249264105031,
+        16
+      ]
+    },
+    {
+      "title": "Euclid, Ohio",
+      "id": "7RRUHJ",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_euclid_oh_p1__t8qhyw_05.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -81.57348632812501,
+          41.52502957323801,
+          -81.4691162109375,
+          41.64418347939746
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Destinyb/'>Destinyb</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_euclid_oh_p1__t8qhyw_05.tif",
+          "size": 3.790440559387207
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_euclid_oh_p1.jpg",
+            "size": 15.555498123168945
+          }
+        ]
+      },
+      "center": [
+        -81.52130126953125,
+        41.58460652631773,
+        16
+      ]
+    },
+    {
+      "title": "Frederick, Md.",
+      "id": "GMP8MS",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_frederick_md__aqrQ2H_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -77.43988037109375,
+          39.39587712612032,
+          -77.37945556640625,
+          39.44043541908486
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_frederick_md__aqrQ2H_01.tif",
+          "size": 3.1287221908569336
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_frederick_md.jpg",
+            "size": 2.8305978775024414
+          }
+        ]
+      },
+      "center": [
+        -77.40966796875,
+        39.41815627260259,
+        16
+      ]
+    },
+    {
+      "title": "Hagerstown, Md.",
+      "id": "F23TF1",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_hagerstown_md__TlwCRs_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -77.76397705078125,
+          39.60357204197881,
+          -77.6788330078125,
+          39.68816704589042
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Marvin/'>Marvin</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_hagerstown_md__TlwCRs_01.tif",
+          "size": 6.806580543518066
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_hagerstown_md.jpg",
+            "size": 2.7458486557006836
+          }
+        ]
+      },
+      "center": [
+        -77.72140502929688,
+        39.64586954393461,
+        16
+      ]
+    },
+    {
+      "title": "Harrisburg, Pa.",
+      "id": "8YJUFV",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_harrisburg_pa__Zjc4su_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -76.915283203125,
+          40.216635475391215,
+          -76.827392578125,
+          40.33817045213394
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/jreaves42/'>jreaves42</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_harrisburg_pa__Zjc4su_00.tif",
+          "size": 3.3181543350219727
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_harrisburg_pa.jpg",
+            "size": 2.980008125305176
+          }
+        ]
+      },
+      "center": [
+        -76.871337890625,
+        40.277402963762576,
+        16
+      ]
+    },
+    {
+      "title": "Jackson, Miss.",
+      "id": "XTZONO",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_jackson_ms__JRETDR_05.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -90.252685546875,
+          32.23138966273761,
+          -90.1373291015625,
+          32.36140331527542
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_jackson_ms__JRETDR_05.tif",
+          "size": 6.538670539855957
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_jackson_ms.jpg",
+            "size": 6.665226936340332
+          }
+        ]
+      },
+      "center": [
+        -90.19500732421874,
+        32.29639648900651,
+        16
+      ]
+    },
+    {
+      "title": "Key West, Fla.",
+      "id": "Y5IRUG",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_key_west_fl_p1__j1o44A_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -81.82067871093749,
+          24.53712939907993,
+          -81.74240112304686,
+          24.58209514136369
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_key_west_fl_p1__j1o44A_01.tif",
+          "size": 13.742327690124512
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_key_west_fl_p1.jpg",
+            "size": 16.192134857177734
+          }
+        ]
+      },
+      "center": [
+        -81.78153991699217,
+        24.559612270221812,
+        16
+      ]
+    },
+    {
+      "title": "Lawrence, Kan.",
+      "id": "DOQHW8",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_lawrence_ks__oGGOUK_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -95.26519775390625,
+          38.93377552819721,
+          -95.21026611328125,
+          38.98930255135952
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_lawrence_ks__oGGOUK_01.tif",
+          "size": 4.078401565551758
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_lawrence_ks.jpg",
+            "size": 3.7440366744995117
+          }
+        ]
+      },
+      "center": [
+        -95.23773193359375,
+        38.961539039778366,
+        16
+      ]
+    },
+    {
+      "title": "Little Rock, Ark.",
+      "id": "T9ABR9",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_little_rock_ar__5Wn7ls_02.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -92.3675537109375,
+          34.698719324532284,
+          -92.186279296875,
+          34.80478291957241
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/dadeniji/'>dadeniji</a>, <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_little_rock_ar__5Wn7ls_02.tif",
+          "size": 26.150708198547363
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_little_rock_ar.jpg",
+            "size": 11.463386535644531
+          }
+        ]
+      },
+      "center": [
+        -92.27691650390625,
+        34.75175112205235,
+        16
+      ]
+    },
+    {
+      "title": "Louisville, Ky.",
+      "id": "17SCB3",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Fmosaics%2F17SCB3-main-content__2026-11-13__ZR0axs.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -85.86090087890625,
+          38.132396186022945,
+          -85.6494140625,
+          38.29209231762609
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/17SCB3-main-content__2026-11-13__ZR0axs.tif",
+          "size": 48.1268253326416
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_louisville_ky_p1.jpg",
+            "size": 8.200905799865723
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_louisville_ky_p2.jpg",
+            "size": 13.643924713134766
+          }
+        ]
+      },
+      "center": [
+        -85.75515747070314,
+        38.212244251824515,
+        16
+      ]
+    },
+    {
+      "title": "Martinsville, Va.",
+      "id": "1APNSA",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_martinsville_va__pdCsF8_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -79.91455078125001,
+          36.65079252503469,
+          -79.81018066406251,
+          36.71687068791303
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_martinsville_va__pdCsF8_00.tif",
+          "size": 1.7295312881469727
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_martinsville_va.jpg",
+            "size": 1.5646495819091797
+          }
+        ]
+      },
+      "center": [
+        -79.86236572265626,
+        36.68383160647386,
+        16
+      ]
+    },
+    {
+      "title": "New Kensington, Pa.",
+      "id": "GJKHTP",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_new_kensington_pa_p1__1O7AXL_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -79.78546142578124,
+          40.54406959045769,
+          -79.72091674804686,
+          40.60352679988588
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_new_kensington_pa_p1__1O7AXL_00.tif",
+          "size": 15.4531831741333
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_new_kensington_pa_p1.jpg",
+            "size": 12.961015701293945
+          }
+        ]
+      },
+      "center": [
+        -79.75318908691403,
+        40.57379819517178,
+        16
+      ]
+    },
+    {
+      "title": "Newport News, Va.",
+      "id": "KJYZSJ",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_newport_news_va__Mo7Pig_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -76.46484375,
+          36.94111143010771,
+          -76.365966796875,
+          37.02886944696475
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_newport_news_va__Mo7Pig_00.tif",
+          "size": 2.165464401245117
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_newport_news_va.jpg",
+            "size": 2.1555795669555664
+          }
+        ]
+      },
+      "center": [
+        -76.4154052734375,
+        36.98499043853623,
+        16
+      ]
+    },
+    {
+      "title": "Niagara Falls, N.Y.",
+      "id": "VORKKH",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_niagara_falls_ny__ewSm7q_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -79.08508300781249,
+          43.05684777584547,
+          -78.9312744140625,
+          43.14508618416029
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/BrandonBm/'>BrandonBm</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_niagara_falls_ny__ewSm7q_00.tif",
+          "size": 4.595097541809082
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_niagara_falls_ny.jpg",
+            "size": 1.9221105575561523
+          }
+        ]
+      },
+      "center": [
+        -79.00817871093749,
+        43.10096698000287,
+        16
+      ]
+    },
+    {
+      "title": "Norfolk, Va.",
+      "id": "RNGCDG",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_norfolk_va__ZTiXLb_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -76.3494873046875,
+          36.80928470205938,
+          -76.20666503906249,
+          36.985003092855955
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_norfolk_va__ZTiXLb_00.tif",
+          "size": 9.0215425491333
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_norfolk_va.jpg",
+            "size": 9.139608383178711
+          }
+        ]
+      },
+      "center": [
+        -76.278076171875,
+        36.89714389745767,
+        16
+      ]
+    },
+    {
+      "title": "Oakland, Calif.",
+      "id": "PYFVML",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_oakland_ca__C1BnDJ_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -122.34924316406251,
+          37.653383201287646,
+          -122.0855712890625,
+          37.9051994823157
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Destinyb/'>Destinyb</a>, <a href='https://oldinsurancemaps.net/profile/rnelson2/'>rnelson2</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_oakland_ca__C1BnDJ_01.tif",
+          "size": 18.995508193969727
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_oakland_ca.jpg",
+            "size": 14.410820007324219
+          }
+        ]
+      },
+      "center": [
+        -122.2174072265625,
+        37.77929134180167,
+        16
+      ]
+    },
+    {
+      "title": "Omaha, Neb.",
+      "id": "SUE24T",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Fmosaics%2FSUE24T-main-content__2026-11-13__d0CNhW.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -96.03698730468751,
+          41.18278832811287,
+          -95.8721923828125,
+          41.36031866306708
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/SUE24T-main-content__2026-11-13__d0CNhW.tif",
+          "size": 133.75054836273193
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_omaha_ne_p1.jpg",
+            "size": 8.641197204589844
+          },
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_omaha_ne_p2.jpg",
+            "size": 40.481658935546875
+          }
+        ]
+      },
+      "center": [
+        -95.95458984375,
+        41.27155349558997,
         16
       ]
     },
@@ -122,7 +1556,19 @@
           -87.15316772460938,
           30.479449996609695
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Destinyb/'>Destinyb</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/KGTRQF-main-content__2025-11-04__S07jNi.tif",
+          "size": 49.43941402435303
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/Pensacola_Block_Data_Map-gimp90.jpg",
+            "size": 58.67382335662842
+          }
+        ]
       },
       "center": [
         -87.24105834960938,
@@ -148,11 +1594,175 @@
           -70.19439697265624,
           43.745304937635055
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/BrandonBm/'>BrandonBm</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/GMFRVO-main-content__2025-10-02__9uaoy8.tif",
+          "size": 24.879905700683594
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_portland_me.jpg",
+            "size": 12.630677223205566
+          }
+        ]
       },
       "center": [
         -70.29052734375,
         43.67677219363915,
+        16
+      ]
+    },
+    {
+      "title": "Portsmouth, Va.",
+      "id": "8BTSDW",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Fmosaics%2F8BTSDW-main-content__2026-11-13__AEGoX2.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -76.376953125,
+          36.79169061907076,
+          -76.28082275390625,
+          36.866437551758466
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/aasens3/'>aasens3</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/8BTSDW-main-content__2026-11-13__AEGoX2.tif",
+          "size": 7.683377265930176
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_portsmouth_va.jpg",
+            "size": 4.812077522277832
+          }
+        ]
+      },
+      "center": [
+        -76.32888793945312,
+        36.829064085414615,
+        16
+      ]
+    },
+    {
+      "title": "Pueblo, Colo.",
+      "id": "URHQ57",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_pueblo_co_p1__KCMBbk_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -104.66949462890624,
+          38.21444607848999,
+          -104.56512451171874,
+          38.31472350724733
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Amaya143/'>Amaya143</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_pueblo_co_p1__KCMBbk_00.tif",
+          "size": 47.80328941345215
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_pueblo_co_p1.jpg",
+            "size": 22.75937557220459
+          }
+        ]
+      },
+      "center": [
+        -104.61730957031249,
+        38.26458479286866,
+        16
+      ]
+    },
+    {
+      "title": "Racine, Wis.",
+      "id": "GYYXCY",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_racine_wi__XlxzNY_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -87.8521728515625,
+          42.67435857693383,
+          -87.76428222656251,
+          42.7752433806997
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/echan33/'>echan33</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_racine_wi__XlxzNY_00.tif",
+          "size": 4.062150001525879
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_racine_wi.jpg",
+            "size": 3.323904037475586
+          }
+        ]
+      },
+      "center": [
+        -87.80822753906251,
+        42.72480097881676,
+        16
+      ]
+    },
+    {
+      "title": "Reno, Nev.",
+      "id": "OFUBYO",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_reno_nv__aDvtKI_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -119.83886718750001,
+          39.50404070558415,
+          -119.78118896484375,
+          39.54852980171145
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Destinyb/'>Destinyb</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_reno_nv__aDvtKI_01.tif",
+          "size": 4.23726749420166
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_reno_nv.jpg",
+            "size": 1.9080085754394531
+          }
+        ]
+      },
+      "center": [
+        -119.81002807617188,
+        39.5262852536478,
         16
       ]
     },
@@ -174,7 +1784,19 @@
           -111.78863525390625,
           40.83251504043272
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/KVMAI5-main-content__2025-11-04__kmicdH.tif",
+          "size": 37.033799171447754
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/Salt_Lake_City_UT_1934_Block_Data_Map-gimpexport90.jpg",
+            "size": 35.79286003112793
+          }
+        ]
       },
       "center": [
         -111.88751220703126,
@@ -200,11 +1822,365 @@
           -111.79687499999999,
           40.813809230569596
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Lawrence/'>Lawrence</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/BGSNBS-main-content__2025-11-04__6CVoPb.tif",
+          "size": 30.56731414794922
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/Salt_Lake_City_UT_1939_Block_Data_Map-gimp90.jpg",
+            "size": 68.86673545837402
+          }
+        ]
       },
       "center": [
         -111.88613891601562,
         40.75555411960317,
+        16
+      ]
+    },
+    {
+      "title": "Sharon Hill, Pa.",
+      "id": "JMMKUD",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_sharon_hill_boro_pa_p1__F1aq9B_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -75.28656005859374,
+          39.8928799002948,
+          -75.24673461914061,
+          39.921322558846626
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_sharon_hill_boro_pa_p1__F1aq9B_00.tif",
+          "size": 3.592461585998535
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_sharon_hill_boro_pa_p1.jpg",
+            "size": 1.700871467590332
+          }
+        ]
+      },
+      "center": [
+        -75.26664733886717,
+        39.90710122957071,
+        16
+      ]
+    },
+    {
+      "title": "Shreveport, La.",
+      "id": "8Z7HLZ",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_shreveport_la_p1__ocukX2_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -93.82873535156251,
+          32.41242905441614,
+          -93.68041992187501,
+          32.560703522325156
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_shreveport_la_p1__ocukX2_00.tif",
+          "size": 30.307781219482422
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_shreveport_la_p1.jpg",
+            "size": 21.953673362731934
+          }
+        ]
+      },
+      "center": [
+        -93.75457763671876,
+        32.486566288370646,
+        16
+      ]
+    },
+    {
+      "title": "South Bend, Ind.",
+      "id": "BKDDAM",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_south_bend_in_p1__LIb6gd_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -86.31683349609374,
+          41.62057561350994,
+          -86.187744140625,
+          41.72315557551983
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Amaya143/'>Amaya143</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_south_bend_in_p1__LIb6gd_00.tif",
+          "size": 71.91108417510986
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_south_bend_in_p1.jpg",
+            "size": 75.67253589630127
+          }
+        ]
+      },
+      "center": [
+        -86.25228881835938,
+        41.67186559451489,
+        16
+      ]
+    },
+    {
+      "title": "Spartanburg, S.C.",
+      "id": "JGUC3R",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_spartanburg_sc_p1__BnQ91p_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -81.97311401367188,
+          34.91408861690609,
+          -81.89346313476564,
+          34.983877982162554
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_spartanburg_sc_p1__BnQ91p_00.tif",
+          "size": 23.65544891357422
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_spartanburg_sc_p1.jpg",
+            "size": 21.680744171142578
+          }
+        ]
+      },
+      "center": [
+        -81.93328857421875,
+        34.94898329953432,
+        16
+      ]
+    },
+    {
+      "title": "Steelton, Pa.",
+      "id": "FE5E4Y",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_steelton_pa__mMHqk2_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -76.8603515625,
+          40.20195268954056,
+          -76.783447265625,
+          40.25228042623784
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/jreaves42/'>jreaves42</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_steelton_pa__mMHqk2_00.tif",
+          "size": 2.543135643005371
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_steelton_pa.jpg",
+            "size": 0.8550596237182617
+          }
+        ]
+      },
+      "center": [
+        -76.8218994140625,
+        40.227116557889204,
+        16
+      ]
+    },
+    {
+      "title": "Steubenville, Ohio",
+      "id": "UMPTJA",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_steubenville_oh_p1_1__QlxUv3_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -80.69320678710938,
+          40.35073056591789,
+          -80.64239501953125,
+          40.401993422391236
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_steubenville_oh_p1_1__QlxUv3_00.tif",
+          "size": 5.238537788391113
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_steubenville_oh_p1.jpg",
+            "size": 9.227867126464844
+          }
+        ]
+      },
+      "center": [
+        -80.66780090332031,
+        40.37636199415457,
+        16
+      ]
+    },
+    {
+      "title": "Syracuse, N.Y.",
+      "id": "ZJ6JVZ",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_syracuse_ny__4YEnct_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -76.212158203125,
+          42.97250158602596,
+          -76.0693359375,
+          43.09697190802465
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/BrandonBm/'>BrandonBm</a>, <a href='https://oldinsurancemaps.net/profile/rloftus/'>rloftus</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_syracuse_ny__4YEnct_01.tif",
+          "size": 7.542925834655762
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_syracuse_ny.jpg",
+            "size": 9.372164726257324
+          }
+        ]
+      },
+      "center": [
+        -76.1407470703125,
+        43.0347367470253,
+        16
+      ]
+    },
+    {
+      "title": "Tampa, Fla.",
+      "id": "YK41FR",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_tampa_fl__jxg5kP_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -82.50732421875,
+          27.894921808206043,
+          -82.408447265625,
+          28.035622160834336
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/sebastiankrzysiak/'>sebastiankrzysiak</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_tampa_fl__jxg5kP_01.tif",
+          "size": 15.59847354888916
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_tampa_fl.jpg",
+            "size": 7.581043243408203
+          }
+        ]
+      },
+      "center": [
+        -82.4578857421875,
+        27.96527198452019,
+        16
+      ]
+    },
+    {
+      "title": "Trenton, N.J.",
+      "id": "C2LA1W",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_trenton_nj__vOVJkW_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -74.83612060546875,
+          40.17467622056339,
+          -74.69329833984375,
+          40.281621002147965
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/giovanni/'>giovanni</a>, <a href='https://oldinsurancemaps.net/profile/rloftus/'>rloftus</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_trenton_nj__vOVJkW_01.tif",
+          "size": 12.488099098205566
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_trenton_nj.jpg",
+            "size": 9.224312782287598
+          }
+        ]
+      },
+      "center": [
+        -74.76470947265626,
+        40.22814861135568,
         16
       ]
     },
@@ -226,11 +2202,99 @@
           -76.89331054687501,
           39.00851330385609
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/73UGOF-main-content__2025-10-02__838RwZ.tif",
+          "size": 51.80513668060303
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_washington_dc_p1.jpg",
+            "size": 36.28531265258789
+          }
+        ]
       },
       "center": [
         -77.0306396484375,
         38.901640483339605,
+        16
+      ]
+    },
+    {
+      "title": "Wilmington, Del.",
+      "id": "3U6OEF",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_wilmington_de_p1__LXeELV_00.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -75.61203002929688,
+          39.68711024716295,
+          -75.46096801757814,
+          39.795875525297085
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Amaya143/'>Amaya143</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_wilmington_de_p1__LXeELV_00.tif",
+          "size": 61.713144302368164
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_wilmington_de_p1.jpg",
+            "size": 29.906850814819336
+          }
+        ]
+      },
+      "center": [
+        -75.5364990234375,
+        39.74149288623003,
+        16
+      ]
+    },
+    {
+      "title": "Winchester, Va.",
+      "id": "R9BQZX",
+      "source": {
+        "type": "raster",
+        "scheme": "xyz",
+        "tiles": [
+          "https://tiles.oldinsurancemaps.net/cog/tiles/WebMercatorQuad/{z}/{x}/{y}.png?tilesize=512&url=https%3A%2F%2Fs3.us-central-1.wasabisys.com%2Foldinsurancemaps%2Fuploaded%2Flayers%2Ffha_block_data_map_winchester_va__wWEeQK_01.tif"
+        ],
+        "tileSize": 256,
+        "minzoom": 10,
+        "maxzoom": 21,
+        "bounds": [
+          -78.19519042968749,
+          39.157752153690964,
+          -78.12652587890625,
+          39.20671884491848
+        ],
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/Amaya143/'>Amaya143</a>, <a href='https://oldinsurancemaps.net/profile/Oswago/'>Oswago</a>, <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/layers/fha_block_data_map_winchester_va__wWEeQK_01.tif",
+          "size": 4.186384201049805
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_winchester_va.jpg",
+            "size": 3.184072494506836
+          }
+        ]
+      },
+      "center": [
+        -78.16085815429688,
+        39.182235499304724,
         16
       ]
     },
@@ -252,7 +2316,19 @@
           -71.71875000000001,
           42.35042512243458
         ],
-        "attribution": "Georeferenced by <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a> on OldInsuranceMaps.net"
+        "attribution": "OldInsuranceMaps.net contributors: <a href='https://oldinsurancemaps.net/profile/acfc/'>acfc</a>, <a href='https://oldinsurancemaps.net/profile/rloftus/'>rloftus</a>"
+      },
+      "downloads": {
+        "mosaic_cog": {
+          "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/mosaics/A0ENG5-main-content__2025-10-27__pjERRQ.tif",
+          "size": 8.849300384521484
+        },
+        "source_images": [
+          {
+            "url": "https://s3.us-central-1.wasabisys.com/oldinsurancemaps/uploaded/documents/fha_block_data_map_worcester_ma.jpg",
+            "size": 6.486828804016113
+          }
+        ]
       },
       "center": [
         -71.81488037109375,
